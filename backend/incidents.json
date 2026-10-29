@@ -1,0 +1,225 @@
+{
+  "incidents": [
+    {
+      "id": "03d6f299-1437-43f7-b6eb-dbbf95ffed10",
+      "type": "video_detection",
+      "timestamp": "2026-10-26T14:12:59.100686",
+      "original_file": "/uploads/740d9103-ea0f-40a6-8442-5f10063c2c94.mp4",
+      "result_file": "/results/result_b301e39f-b630-480f-8a96-d15b184ef080.mp4",
+      "total_frames": 404,
+      "frames_analyzed": 22,
+      "persons_count": 1,
+      "ppe_count": 33,
+      "violations_count": 0,
+      "status": "open",
+      "notes": "",
+      "severity": "low"
+    },
+    {
+      "id": "3f1ca37c-1d4e-4a6d-91c5-f8e0e1139c0f",
+      "type": "image_detection",
+      "timestamp": "2026-10-26T14:20:59.205645",
+      "original_file": "/uploads/61f854a3-9488-4da2-9260-b95e99767506.jpeg",
+      "result_file": "/results/result_61f854a3-9488-4da2-9260-b95e99767506.jpeg",
+      "persons_count": 1,
+      "ppe_count": 1,
+      "violations": [
+        {
+          "label": "Falta Chaleco",
+          "category": "no_vest",
+          "confidence": 1.0,
+          "is_violation": true,
+          "bbox": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 0,
+            "y2": 0
+          }
+        },
+        {
+          "label": "Falta Guantes",
+          "category": "no_gloves",
+          "confidence": 1.0,
+          "is_violation": true,
+          "bbox": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 0,
+            "y2": 0
+          }
+        }
+      ],
+      "missing_ppe": [
+        "vest",
+        "gloves"
+      ],
+      "compliance_rate": 33.3,
+      "severity": "high",
+      "status": "open",
+      "notes": "Falta de EPP requerido: Chaleco, Guantes"
+    },
+    {
+      "id": "cec41b6e-9789-4c77-a544-e2a774ca363d",
+      "type": "image_detection",
+      "timestamp": "2026-10-26T14:21:08.243968",
+      "original_file": "/uploads/5a3e295f-d487-4d09-babd-173807725616.jpeg",
+      "result_file": "/results/result_5a3e295f-d487-4d09-babd-173807725616.jpeg",
+      "persons_count": 1,
+      "ppe_count": 2,
+      "violations": [
+        {
+          "label": "Falta Guantes",
+          "category": "no_gloves",
+          "confidence": 1.0,
+          "is_violation": true,
+          "bbox": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 0,
+            "y2": 0
+          }
+        }
+      ],
+      "missing_ppe": [
+        "gloves"
+      ],
+      "compliance_rate": 66.7,
+      "severity": "medium",
+      "status": "resolved",
+      "notes": "Falta de EPP requerido: Guantes",
+      "updated_at": "2026-10-26T14:22:01.048240"
+    },
+    {
+      "id": "2d63d639-a6b1-44aa-9cf5-51af20499574",
+      "type": "video_detection",
+      "timestamp": "2026-10-26T14:42:30.243754",
+      "original_file": "/uploads/aa571762-2e65-4243-8046-fd0e90f85d83.mp4",
+      "result_file": "/results/result_ae63bdda-257e-4823-8033-a9f4916a9736.mp4",
+      "total_frames": 337,
+      "frames_analyzed": 19,
+      "persons_count": 1,
+      "ppe_count": 60,
+      "violations_count": 0,
+      "status": "open",
+      "notes": "",
+      "severity": "low"
+    },
+    {
+      "id": "669dcc34-5a8b-4977-a657-4bac9cadd46e",
+      "type": "video_detection",
+      "timestamp": "2026-10-26T15:11:01.391924",
+      "original_file": "/uploads/3223bd5b-5b9e-41bb-825d-7d77e4455f67.mp4",
+      "result_file": "/results/result_d8277106-f8e8-4340-824f-901ad0d0e2e3.mp4",
+      "total_frames": 404,
+      "frames_analyzed": 14,
+      "persons_count": 1,
+      "ppe_count": 22,
+      "violations_count": 0,
+      "status": "resolved",
+      "notes": "",
+      "severity": "low",
+      "updated_at": "2026-10-26T16:39:43.854221"
+    },
+    {
+      "id": "82b4c440-d32a-47a1-ae42-569a1152beb2",
+      "type": "image_detection",
+      "timestamp": "2026-10-26T16:40:19.782478",
+      "original_file": "/uploads/e5dc81b0-fd8c-45f8-a3b4-36238c57a71e.jpg",
+      "result_file": "/results/result_e5dc81b0-fd8c-45f8-a3b4-36238c57a71e.jpg",
+      "persons_count": 1,
+      "ppe_count": 0,
+      "violations": [
+        {
+          "label": "no_gloves",
+          "category": "no_gloves",
+          "confidence": 0.305,
+          "is_violation": true,
+          "bbox": {
+            "x1": 365,
+            "y1": 384,
+            "x2": 445,
+            "y2": 473
+          }
+        },
+        {
+          "label": "Falta Casco",
+          "category": "no_helmet",
+          "confidence": 1.0,
+          "is_violation": true,
+          "bbox": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 0,
+            "y2": 0
+          }
+        },
+        {
+          "label": "Falta Chaleco",
+          "category": "no_vest",
+          "confidence": 1.0,
+          "is_violation": true,
+          "bbox": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 0,
+            "y2": 0
+          }
+        },
+        {
+          "label": "Falta Guantes",
+          "category": "no_gloves",
+          "confidence": 1.0,
+          "is_violation": true,
+          "bbox": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 0,
+            "y2": 0
+          }
+        }
+      ],
+      "missing_ppe": [
+        "helmet",
+        "vest",
+        "gloves"
+      ],
+      "compliance_rate": 0.0,
+      "severity": "critical",
+      "status": "open",
+      "notes": "Falta de EPP requerido: Casco, Chaleco, Guantes"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "25d02a0b-6601-4c51-87a9-66fdee576120",
+      "timestamp": "2026-10-26T14:20:59.205645",
+      "title": "⚠️ Violación de EPP detectada",
+      "message": "Se detectaron 1 trabajador(es) sin EPP requerido: Chaleco, Guantes.",
+      "severity": "high",
+      "source": "image_detection",
+      "incident_id": "3f1ca37c-1d4e-4a6d-91c5-f8e0e1139c0f",
+      "read": true
+    },
+    {
+      "id": "34aad517-5b48-4fc3-ad9d-abdb70ce3eb7",
+      "timestamp": "2026-10-26T14:21:08.243968",
+      "title": "⚠️ Violación de EPP detectada",
+      "message": "Se detectaron 1 trabajador(es) sin EPP requerido: Guantes.",
+      "severity": "medium",
+      "source": "image_detection",
+      "incident_id": "cec41b6e-9789-4c77-a544-e2a774ca363d",
+      "read": true
+    },
+    {
+      "id": "723be5a0-bd39-4c24-856f-ca4c50adfa4d",
+      "timestamp": "2026-10-26T16:40:19.782478",
+      "title": "⚠️ Violación de EPP detectada",
+      "message": "Se detectaron 1 trabajador(es) sin EPP requerido: Casco, Chaleco, Guantes.",
+      "severity": "critical",
+      "source": "image_detection",
+      "incident_id": "82b4c440-d32a-47a1-ae42-569a1152beb2",
+      "read": false
+    }
+  ],
+  "reports": []
+}

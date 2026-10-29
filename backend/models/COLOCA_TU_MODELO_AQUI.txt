@@ -1,0 +1,29 @@
+COLOCA TU ARCHIVO .PT AQUÍ
+================================
+
+Este directorio es donde debes colocar tu modelo YOLO entrenado.
+
+📌 INSTRUCCIONES:
+1. Copia tu archivo .pt (por ejemplo: ppe_model.pt) en esta carpeta:
+   backend/models/
+
+2. La API lo detectará automáticamente al iniciar.
+
+3. Si ya tienes la API corriendo, puedes cargarlo manualmente:
+   POST /model/load  →  { "model_filename": "ppe_model.pt" }
+   
+   O subirlo directamente desde el frontend en el panel de configuración.
+
+📂 Ruta completa de este directorio:
+   C:\Users\Pc1\.gemini\antigravity-ide\scratch\ppe-safety-detection\backend\models\
+
+🔑 Clases que se detectan automáticamente:
+   - helmet / casco / hard_hat
+   - vest / chaleco / safety_vest
+   - gloves / guantes
+   - boots / botas
+   - mask / mascarilla
+   - goggles / gafas
+   - person / persona / worker / trabajador
+   
+   Si tu modelo usa nombres diferentes, edita la variable PPE_CLASSES en main.py

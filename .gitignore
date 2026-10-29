@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js Build
+.next/
+out/
+build/
+dist/
+
+# Python & Virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Temporary / Generated Storage & Inference Assets
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/results/*
+!backend/results/.gitkeep
+backend/reports/*
+!backend/reports/.gitkeep
+
+# Heavy Model Weights (GitHub has a 100MB file limit)
+*.pt
+*.onnx
+*.weights
+*.bin
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# TypeScript cache & Logs
+*.tsbuildinfo
+next-env.d.ts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
